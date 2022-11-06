@@ -1,5 +1,7 @@
 function Calculator(){
 
+    this.str = "Hello this string is from Calculator.cy.js"
+
     this.print = function(val1 , val2){
         console.log('Val1 ',val1)
         console.log('Val2 ',val2)
